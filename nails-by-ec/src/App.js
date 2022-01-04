@@ -2,9 +2,11 @@ import React, { Component, Fragment } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/layout/Navbar';
 import Sidebar from './components/layout/Sidebar';
-import Logo from './components/layout/Logo';
+// import Logo from './components/layout/Logo';
 
 import { About } from './components/pages/About';
+import { Home } from './components/pages/Home';
+import { Offer } from './components/pages/Offer';
 
 import './App.css';
 
@@ -15,9 +17,12 @@ class App extends Component {
         <div className='App'>
           <Navbar />
           <Sidebar />
-          <Logo />
+          {/* <Logo /> */}
           <div className='container'>
             <Routes>
+              <Route path='/' element={<Home />} />
+              <Route path='/home' element={<Home />} />
+              <Route path='/offer' element={<Offer />} />
               <Route path='/about' element={<About />} />
             </Routes>
           </div>

@@ -2,10 +2,12 @@ import React, { Fragment } from 'react';
 
 export const About = () => {
   return (
-    <Fragment>
-      <h1>About This App</h1>
-      <p>App to search Github users</p>
-      <p>Version: 1.0.0</p>
-    </Fragment>
+    <div className='text-container'>
+      <p>Ewa Czarniecka</p>
+      <p>
+        Jestem sobie Ewka paletka. Robie pazurki i dzięki temnu wszystko z
+        górki.
+      </p>
+    </div>
   );
 };

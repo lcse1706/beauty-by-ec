@@ -15,12 +15,12 @@ const Sidebar = () => {
           </a>
         </li>
         <li>
-          <a href='https://www.facebook.com/' target='_blank'>
+          <a href='tel:727615018' target='_blank'>
             <i className='fas fa-phone-square'></i>
           </a>
         </li>
         <li>
-          <a href='https://www.facebook.com/' target='_blank'>
+          <a href='mailto: ewa@nailsbyec.se'>
             <i className='fas fa-envelope-square'></i>
           </a>
         </li>

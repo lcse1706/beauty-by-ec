@@ -18,7 +18,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  font-size: 1rem;
+  font-size: 1.5rem;
   line-height: 1.6;
 
   background-image: url('./components/layout/background.jpg');
@@ -70,7 +70,7 @@ body::after {
 /* Utilities */
 .container {
   max-width: 1100px;
-  margin: auto;
+  margin: 25vh auto;
   overflow: hidden;
   padding: 0 2rem;
 }
@@ -371,7 +371,7 @@ table th {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.7rem 2rem;
+  padding: 0.7rem 1.5rem;
   z-index: 1;
   width: 100%;
   margin-bottom: 1rem;
@@ -388,7 +388,7 @@ table th {
   color: #333;
 
   padding: 0.45rem;
-  margin: 0 1rem;
+  margin: 0 2rem;
 }
 
 .navbar a:hover {
@@ -432,7 +432,7 @@ a.booktime:active {
   top: 0;
   left: 0;
   width: 20%;
-  height: 100vh;
+  height: 80vh;
 }
 
 .sidebar ul {
@@ -441,8 +441,8 @@ a.booktime:active {
   justify-content: space-between;
   height: 20vh;
 
-  padding: 0.45rem;
-  margin: 1rem 0;
+  padding: 0 2rem;
+  /* margin: 1rem 0; */
 }
 
 .sidebar li {
@@ -451,6 +451,13 @@ a.booktime:active {
 
 .sidebar a {
   color: #333;
+}
+
+.text-container {
+  padding: 2rem;
+  border-radius: 1rem;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 /* Mobile Styles */
