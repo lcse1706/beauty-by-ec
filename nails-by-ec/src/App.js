@@ -4,9 +4,10 @@ import Navbar from './components/layout/Navbar';
 import Sidebar from './components/layout/Sidebar';
 // import Logo from './components/layout/Logo';
 
-import { About } from './components/pages/About';
 import { Home } from './components/pages/Home';
+import { Gallery } from './components/pages/Gallery';
 import { Offer } from './components/pages/Offer';
+import { About } from './components/pages/About';
 
 import './App.css';
 
@@ -22,6 +23,7 @@ class App extends Component {
             <Routes>
               <Route path='/' element={<Home />} />
               <Route path='/home' element={<Home />} />
+              <Route path='/gallery' element={<Gallery />} />
               <Route path='/offer' element={<Offer />} />
               <Route path='/about' element={<About />} />
             </Routes>
