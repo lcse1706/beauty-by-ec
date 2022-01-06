@@ -10,8 +10,13 @@ const Sidebar = () => {
           </a>
         </li>
         <li>
-          <a href=' http://m.me/EwaCzarniecka' target='_blank'>
+          <a href=' http://m.me/lukczar1706' target='_blank'>
             <i className='fab fa-facebook-messenger'></i>
+          </a>
+        </li>
+        <li>
+          <a href=' http://wa.me/48507170742' target='_blank'>
+            <i className='fab fa-whatsapp-square'></i>
           </a>
         </li>
         <li>
