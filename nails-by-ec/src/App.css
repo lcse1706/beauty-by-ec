@@ -44,12 +44,12 @@ img {
 .logo {
   width: 400px;
   position: fixed;
-  top: 40%;
+  top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-html::after {
+body::after {
   content: '';
   position: fixed;
   top: 0;
@@ -66,7 +66,6 @@ html::after {
   max-width: 1920px;
   text-align: center;
   width: 80vw;
-  /* height: 100vh; */
   margin: 15vh auto;
   overflow: hidden;
   padding: 0 2rem;
@@ -105,19 +104,16 @@ nav.showNav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  /* align-items: center;
   padding: 0.7rem 1.5rem;
   width: 60%;
-  margin: 0 0 1rem 0;
+  margin: 0 0 1rem 0; */
   font-family: 'Dancing Script', cursive;
   color: #333;
   z-index: 1;
   background-color: rgba(255, 255, 255, 0.8);
   transition: 1s;
 }
-
-/* .navbar.show {
-  top: 0;
-} */
 
 .navbar img {
   width: 350px;
@@ -139,29 +135,6 @@ nav.showNav {
 .navbar a:hover {
   color: #000;
 }
-
-/* .navbar a:active {
-  transform: scale(0.88);
-} */
-
-/* Static-bar */
-
-/* .static-bar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  padding: 0.7rem 1.5rem;
-
-  position: absolute;
-  top: 0;
-  left: 0;
- 
-}
-
-.static-bar img {
-  width: 150px;
-} */
 
 a.booktime {
   font-family: 'Dancing Script', cursive;
@@ -291,6 +264,54 @@ a.booktime:hover {
 
 /* // Large devices (desktops, less than 1200px) */
 @media (min-width: 1430px) {
+  .logo {
+    width: 1000px;
+    top: 50%;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    width: 100%;
+    background: none;
+  }
+
+  .navbar img {
+    transform: translateY(5%);
+    width: 400px;
+  }
+  .navbar ul {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .large {
+    font-size: 2.5rem;
+  }
+
+  .booktime {
+    transform: translateY(35%);
+  }
 }
 @media (min-width: 1920px) {
+  .large {
+    font-size: 3rem;
+  }
+  .navbar {
+    justify-content: center;
+  }
+}
+@media (orientation: landscape) and (max-width: 992px) {
+  .container {
+    width: 70vw;
+  }
+
+  .sidebar {
+    height: 50vh;
+  }
 }

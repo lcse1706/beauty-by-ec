@@ -10,35 +10,29 @@ const Navbar = () => {
   };
   return (
     <nav className='navbar large'>
-      <div>
-        <img
-          src={logo}
-          alt='Logo Nails By EC'
-          style={{ margin: 'auto', display: 'block' }}
-        />
-        <ul>
-          <li>
-            <Link onClick={hideNav} to='/home'>
-              Hem
-            </Link>
-          </li>
-          <li>
-            <Link onClick={hideNav} to='/gallery'>
-              Galleri
-            </Link>
-          </li>
-          <li>
-            <Link onClick={hideNav} to='/offer'>
-              Erbjudande
-            </Link>
-          </li>
-          <li>
-            <Link onClick={hideNav} to='/about'>
-              Om Mig
-            </Link>
-          </li>
-        </ul>
-      </div>
+      <img src={logo} alt='Logo Nails By EC' />
+      <ul>
+        <li>
+          <Link onClick={hideNav} to='/home'>
+            Hem
+          </Link>
+        </li>
+        <li>
+          <Link onClick={hideNav} to='/gallery'>
+            Galleri
+          </Link>
+        </li>
+        <li>
+          <Link onClick={hideNav} to='/offer'>
+            Erbjudande
+          </Link>
+        </li>
+        <li>
+          <Link onClick={hideNav} to='/about'>
+            Om Mig
+          </Link>
+        </li>
+      </ul>
     </nav>
   );
 };
