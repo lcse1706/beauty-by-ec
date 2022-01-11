@@ -56,7 +56,8 @@ body::after {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(255, 255, 255, 0.2);
+  /* background-color: rgba(255, 255, 255, 0.2); */
+  background-color: rgba(0, 0, 0, 0.3);
   border-radius: 5px;
   z-index: -2;
 }
@@ -109,9 +110,9 @@ nav.showNav {
   width: 60%;
   margin: 0 0 1rem 0; */
   font-family: 'Dancing Script', cursive;
-  color: #333;
+  /* color: #fff; */
   z-index: 1;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(0, 0, 0, 0.8);
   transition: 1s;
 }
 
@@ -125,23 +126,23 @@ nav.showNav {
 }
 
 .navbar a {
-  font-weight: 700;
-  color: #333;
+  font-weight: 500;
+  color: #fafaf9;
 
   padding: 0.45rem;
   margin: 0 2rem;
 }
-
+/* 
 .navbar a:hover {
   color: #000;
-}
+} */
 
 a.booktime {
   font-family: 'Dancing Script', cursive;
   padding: 0.45rem;
   cursor: pointer;
   color: #fff;
-  background-color: #222;
+  background-color: rgba(0, 0, 0, 0.8);
   border-radius: 1rem;
   transition: 0.2s ease;
 
@@ -158,11 +159,11 @@ a.booktime:hover {
 /* Hamburger */
 
 .hamburger {
-  color: black;
+  color: #fff;
   position: fixed;
   left: 20px;
   top: 20px;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.8);
   padding: 8px 12px;
   border-radius: 20%;
   border: none;
@@ -197,7 +198,8 @@ a.booktime:hover {
 }
 
 .sidebar a {
-  color: #333;
+  /* color: #333; */
+  color: #fff;
 }
 
 .text-container {
