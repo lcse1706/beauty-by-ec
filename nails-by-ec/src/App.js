@@ -21,7 +21,6 @@ const App = () => {
         <Bookbtn />
         <Navbar />
         <Sidebar />
-        {/* <Logo /> */}
         <div className='container'>
           <Routes>
             <Route path='/' element={<Home />} />

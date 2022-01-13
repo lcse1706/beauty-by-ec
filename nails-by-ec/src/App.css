@@ -56,6 +56,11 @@ body::after {
   z-index: -2;
 }
 
+.card {
+  margin: 2rem;
+  width: 300px;
+}
+
 /* Utilities */
 .container {
   max-width: 1920px;
@@ -82,6 +87,24 @@ body::after {
 .lead {
   font-size: 1.5rem;
   margin-bottom: 1rem;
+}
+h1 {
+  margin-bottom: 2rem;
+}
+
+.loyal {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+p {
+  text-align: justify;
+  text-indent: 2rem;
+}
+
+.price {
+  font-weight: 700;
 }
 
 /* Navbar */
@@ -250,6 +273,14 @@ a.booktime:hover {
 
 /* // Large devices (desktops, less than 1200px) */
 @media (min-width: 1430px) {
+  .text-container {
+    font-size: 1.25rem;
+  }
+
+  .card {
+    width: 500px;
+  }
+
   .logo {
     display: none;
     width: 1000px;
