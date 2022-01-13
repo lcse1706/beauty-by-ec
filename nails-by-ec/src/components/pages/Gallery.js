@@ -13,7 +13,7 @@ export const Gallery = () => {
       <div className='picture'>
         <ImagerImg width='100px' src={require('../imgs/2.jpg')} alt='Zdjecie' />
       </div>
-      <div className='picture'>
+      {/* <div className='picture'>
         <ImagerImg width='100px' src={require('../imgs/3.jpg')} alt='Zdjecie' />
       </div>
       <div className='picture'>
@@ -40,7 +40,7 @@ export const Gallery = () => {
           src={require('../imgs/10.jpg')}
           alt='Zdjecie'
         />
-      </div>
+      </div> */}
     </div>
   );
 };

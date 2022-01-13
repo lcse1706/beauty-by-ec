@@ -5,17 +5,17 @@ const Sidebar = () => {
     <aside className='sidebar lead'>
       <ul>
         <li>
-          <a href='https://www.facebook.com/' target='_blank'>
+          <a href='https://www.facebook.com/NailsbyEvaC' target='_blank'>
             <i className='fab fa-facebook'></i>
           </a>
         </li>
         <li>
-          <a href='http://m.me/Nails-by-EC-105222388695249/' target='_blank'>
+          <a href='http://m.me/NailsbyEvaC' target='_blank'>
             <i className='fab fa-facebook-messenger'></i>
           </a>
         </li>
         <li>
-          <a href=' http://wa.me/48507170742' target='_blank'>
+          <a href=' http://wa.me/46727615018' target='_blank'>
             <i className='fab fa-whatsapp-square'></i>
           </a>
         </li>
