@@ -1,5 +1,6 @@
 {
   "name": "nails-by-ec",
+  "homepage": "http://nailsbyec.se",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

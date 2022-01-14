@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import card_front from '../layout/card_front.jpg';
 import card_back from '../layout/card_back.jpg';
 
@@ -8,8 +8,8 @@ export const Offer = () => {
       <h1>Erbjudande</h1>
 
       <p>
-        Jag håller just nu på att göra mina naglar hemma i Vagnhärad medan jag
-        letar efter ett ställe att tillhandahålla mina tjänster. Om du har några
+        Jag håller just nu på att göra naglar hemma i Vagnhärad medan jag letar
+        efter ett ställe att tillhandahålla mina tjänster. Om du har några
         förslag, vänligen skicka det via e-post.
       </p>
       <br />

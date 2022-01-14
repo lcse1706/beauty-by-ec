@@ -1,5 +1,4 @@
-import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react';
 
 import { ImagerDisplay, imagerShow, ImagerImg } from '../imager/index.js';
 
@@ -24,7 +23,7 @@ export const Gallery = () => {
       </div>
       <div className='picture'>
         <ImagerImg width='100px' src={require('../imgs/6.jpg')} alt='Zdjecie' />
-      </div>
+      </div> */}
       <div className='picture'>
         <ImagerImg width='100px' src={require('../imgs/7.jpg')} alt='Zdjecie' />
       </div>
@@ -40,7 +39,7 @@ export const Gallery = () => {
           src={require('../imgs/10.jpg')}
           alt='Zdjecie'
         />
-      </div> */}
+      </div>
     </div>
   );
 };

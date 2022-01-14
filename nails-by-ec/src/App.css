@@ -66,9 +66,9 @@ body::after {
   max-width: 1920px;
   text-align: center;
   width: 80vw;
-  margin: 15vh auto;
+  margin: 10vh auto;
   overflow: hidden;
-  padding: 0 2rem;
+  padding: 0 0 2rem 2rem;
 }
 
 /* Text Styles*/
@@ -273,6 +273,11 @@ a.booktime:hover {
 
 /* // Large devices (desktops, less than 1200px) */
 @media (min-width: 1430px) {
+  .container {
+    margin: 3vh auto;
+    padding: 0 1rem 2rem 1rem;
+  }
+
   .text-container {
     font-size: 1.25rem;
   }
@@ -324,6 +329,10 @@ a.booktime:hover {
   }
 }
 @media (min-width: 1920px) {
+  .container {
+    margin: 5vh auto;
+  }
+
   .large {
     font-size: 3rem;
   }

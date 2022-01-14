@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import Logo from '../layout/Logo';
 
 export const Home = () => {
