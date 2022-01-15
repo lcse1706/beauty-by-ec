@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,200;1,400&display=swap');
 
 * {
   box-sizing: border-box;
@@ -18,7 +19,8 @@ html {
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+
   font-size: 1rem;
   line-height: 1.6;
   position: relative;
@@ -122,7 +124,11 @@ nav.showNav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: 'Dancing Script', cursive;
+  /* font-family: 'Dancing Script', cursive; */
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-style: italic;
   z-index: 1;
   background-color: rgba(0, 0, 0, 0.8);
   transition: 1s;
@@ -140,7 +146,6 @@ nav.showNav {
 }
 
 .navbar a {
-  font-weight: 500;
   color: #e9e9e9;
 
   padding: 0.45rem;
@@ -149,8 +154,11 @@ nav.showNav {
 
 a.booktime {
   display: none;
-  font-family: 'Dancing Script', cursive;
-  padding: 0.45rem;
+  /* font-family: 'Dancing Script', cursive; */
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  font-weight: 200;
+  padding: 0.6rem;
   cursor: pointer;
   color: #fff;
   background-color: rgba(0, 0, 0, 0.8);
@@ -263,16 +271,13 @@ a.booktime:hover {
 @media (min-width: 576px) {
 }
 
-/* // Small devices (landscape phones, less than 768px) */
 @media (min-width: 768px) {
 }
 
-/* // Medium devices (tablets, less than 992px) */
 @media (min-width: 992px) {
 }
 
-/* // Large devices (desktops, less than 1200px) */
-@media (min-width: 1430px) {
+@media (min-width: 1200px) {
   .container {
     margin: 3vh auto;
     padding: 0 1rem 2rem 1rem;
@@ -334,7 +339,7 @@ a.booktime:hover {
   }
 
   .large {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
   .navbar {
     justify-content: center;
