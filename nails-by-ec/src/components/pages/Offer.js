@@ -5,8 +5,7 @@ import card_back from '../layout/card_back.jpg';
 export const Offer = () => {
   return (
     <div className='text-container'>
-      <h1>Erbjudande</h1>
-
+      <h1>Naglar</h1>
       <p>
         Jag håller just nu på att göra naglar hemma i Vagnhärad medan jag letar
         efter ett ställe att tillhandahålla mina tjänster. Om du har några
@@ -15,25 +14,28 @@ export const Offer = () => {
       <br />
       <ul className='offer'>
         <li>
-          Gellack - <span className='price'>350 SEK</span>
+          <h3>Gellack</h3> - <span className='price'>350 SEK</span>
         </li>
         <li>
-          Gellack + borttagning av gammalt material -{' '}
-          <span className='price'>400 SEK</span>
+          <h3>Gellack + borttagning av gammalt material</h3> -
+          <span className='price'> 400 SEK</span>
         </li>
         <li>
-          Nagelförlängning - <span className='price'>450 SEK</span>
+          <h3>Nagelförlängning</h3> - <span className='price'>450 SEK</span>
         </li>
         <li>
-          Nagelförlängning + borttagning av gammalt material -
+          <h3>Nagelförlängning + borttagning av gammalt material</h3> -
           <span className='price'> 500 SEK</span>
         </li>
+        <br />
         <li>
           Det är möjligt att köra till kund inom Trasa - Vagnhärad - Västerljung
           mot en avgift - <span className='price'>100 SEK</span>.
         </li>
       </ul>
       <br />
+      <h1>Fransar</h1>
+
       <h1>Lojalitetsprogram</h1>
 
       <p className='loyal'>
