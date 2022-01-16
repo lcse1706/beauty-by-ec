@@ -1,6 +1,4 @@
 import React from 'react';
-import card_front from '../layout/card_front.jpg';
-import card_back from '../layout/card_back.jpg';
 import { ImagerDisplay, imagerShow, ImagerImg } from '../imager/index.js';
 
 export const Offer = () => {
@@ -15,28 +13,49 @@ export const Offer = () => {
       <br />
       <ul className='offer'>
         <li>
-          <h3>Gellack</h3> - <span className='price'>350 SEK</span>
+          <h3>Manikyr</h3> - <span className='price'>150 kr</span>
         </li>
         <li>
-          <h3>Gellack + borttagning av gammalt material</h3> -
-          <span className='price'> 400 SEK</span>
+          <h3>Gellack</h3> - <span className='price'>390 kr</span>
         </li>
         <li>
-          <h3>Nagelförlängning</h3> - <span className='price'>450 SEK</span>
+          <h3>Gellack - borttagning</h3> - <span className='price'>150 kr</span>
+        </li>
+        {/* <li>
+          <h3>Gellack</h3> -
+          <span className='price'> 400 kr</span>
+        </li> */}
+        <li>
+          <h3>Nagelförlängning (gelénaglar) Nytt Set</h3> -
+          <span className='price'>490 kr</span>
         </li>
         <li>
-          <h3>Nagelförlängning + borttagning av gammalt material</h3> -
-          <span className='price'> 500 SEK</span>
+          <h3>Nagelförlängning (Påfyllning)</h3> -
+          <span className='price'> 440 kr</span>
+        </li>
+        <li>
+          <h3>Borttagning gelénaglar</h3> -{' '}
+          <span className='price'>200 kr</span>
         </li>
         <br />
-        <li>
+        {/* <li>
           Det är möjligt att köra till kund inom Trasa - Vagnhärad - Västerljung
-          mot en avgift - <span className='price'>100 SEK</span>.
-        </li>
+          mot en avgift - <span className='price'>100 kr</span>.
+        </li> */}
       </ul>
       <br />
       <h1>Fransar</h1>
 
+      <ul className='offer'>
+        <li>
+          <h3>Nytt Set Singelfransar</h3> -{' '}
+          <span className='price'>400 kr</span>
+        </li>
+        <li>
+          <h3>Nytt Set Volymfransar</h3> - <span className='price'>470 kr</span>
+        </li>
+      </ul>
+      <br />
       <h1>Lojalitetsprogram</h1>
 
       <p className='loyal'>
