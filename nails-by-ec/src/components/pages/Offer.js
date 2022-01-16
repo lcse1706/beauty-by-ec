@@ -1,6 +1,7 @@
 import React from 'react';
 import card_front from '../layout/card_front.jpg';
 import card_back from '../layout/card_back.jpg';
+import { ImagerDisplay, imagerShow, ImagerImg } from '../imager/index.js';
 
 export const Offer = () => {
   return (
@@ -42,16 +43,21 @@ export const Offer = () => {
         Om du samlar 6 st stämplar - du får 50% rabat till den sjunde
         behandlingen !
       </p>
-      <img
-        className='card'
-        src={card_front}
-        alt='Visitkort NailsByEC Framsidan'
-      />
-      <img
-        className='card'
-        src={card_back}
-        alt='Visitkort NailsByEC Baksidan'
-      />
+      <div className='photo-container'>
+        <ImagerDisplay z-index='2000' />
+        <div className='card'>
+          <ImagerImg
+            src={require('../layout/card_front.jpg')}
+            alt='Visitkort NailsByEC Framsidan'
+          />
+        </div>
+        <div className='card'>
+          <ImagerImg
+            src={require('../layout/card_back.jpg')}
+            alt='Visitkort NailsByEC Baksidan'
+          />
+        </div>
+      </div>
     </div>
   );
 };

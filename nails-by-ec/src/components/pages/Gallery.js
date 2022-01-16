@@ -40,7 +40,11 @@ export const Gallery = () => {
         />
       </div>
       <div className='picture'>
-        <ImagerImg width='100px' src={require('../imgs/8.jpg')} alt='Zdjecie' />
+        <ImagerImg
+          width='100px'
+          src={require('../imgs/8.jpg')}
+          alt='Fransar 2, Lashes 2'
+        />
       </div>
       {/* <div className='picture'>
         <ImagerImg width='100px' src={require('../imgs/9.jpg')} alt='Zdjecie' />
@@ -49,7 +53,7 @@ export const Gallery = () => {
         <ImagerImg
           width='100px'
           src={require('../imgs/10.jpg')}
-          alt='Zdjecie'
+          alt='Fransar 3, Lashes 3'
         />
       </div>
     </div>

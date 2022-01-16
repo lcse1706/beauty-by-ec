@@ -56,11 +56,6 @@ body::after {
   z-index: -2;
 }
 
-.card {
-  margin: 2rem;
-  width: 300px;
-}
-
 h3 {
   display: inline;
   font-size: 1.25rem;
@@ -105,7 +100,7 @@ h1 {
 }
 
 p {
-  text-align: justify;
+  text-align: center;
   text-indent: 2rem;
 }
 
@@ -239,6 +234,28 @@ a.booktime:hover {
 }
 
 .gallery .picture {
+  width: 300px;
+}
+
+/* About */
+
+.photo-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.certificate {
+  width: 500px;
+}
+
+.certificate.big {
+  width: 600px;
+}
+
+.card {
+  margin: 2rem;
   width: 300px;
 }
 

@@ -1,4 +1,5 @@
-import React, { Fragment } from 'react';
+import React from 'react';
+import { ImagerDisplay, imagerShow, ImagerImg } from '../imager/index.js';
 
 export const About = () => {
   return (
@@ -17,6 +18,23 @@ export const About = () => {
       </p>
       <br />
       <h1>Mina Certifikat</h1>
+      <div className='photo-container'>
+        <ImagerDisplay z-index='2000' />
+        <div className='certificate'>
+          <ImagerImg
+            // width='100px'
+            src={require('../layout/nailsCertificate.jpg')}
+            alt='Naglar Certifikat'
+          />
+        </div>
+        <div className='certificate big'>
+          <ImagerImg
+            // width='100px'
+            src={require('../layout/lashesCertificate.jpg')}
+            alt='Fransar Certifikat'
+          />
+        </div>
+      </div>
     </div>
   );
 };
