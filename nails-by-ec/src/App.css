@@ -68,7 +68,7 @@ h3 {
   max-width: 1920px;
   text-align: center;
   width: 80vw;
-  margin: 10vh auto;
+  margin: 15vh auto;
   overflow: hidden;
   padding: 0 0 2rem 2rem;
 }
@@ -151,7 +151,7 @@ nav.showNav {
 }
 
 a.booktime {
-  display: none;
+  /* display: none; */
   font-family: 'Montserrat', sans-serif;
   font-style: italic;
   font-weight: 200;

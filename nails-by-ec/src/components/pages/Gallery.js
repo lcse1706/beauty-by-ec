@@ -20,10 +20,14 @@ export const Gallery = () => {
           alt='Naglar 2, Nails 2'
         />
       </div>
-      {/* <div className='picture'>
-        <ImagerImg width='100px' src={require('../imgs/3.jpg')} alt='Zdjecie' />
-      </div>
       <div className='picture'>
+        <ImagerImg
+          width='100px'
+          src={require('../imgs/3.jpg')}
+          alt='Naglar 3, Nails 3'
+        />
+      </div>
+      {/* <div className='picture'>
         <ImagerImg width='100px' src={require('../imgs/4.jpg')} alt='Zdjecie' />
       </div>
       <div className='picture'>

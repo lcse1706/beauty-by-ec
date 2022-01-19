@@ -3,7 +3,13 @@ import React from 'react';
 const LogoWithBookbtn = () => {
   return (
     <div className='large'>
-      <a className='booktime'>Boka Tid !</a>
+      <a
+        href='https://fb.com/book/NailsbyEvaC/'
+        target='blink_'
+        className='booktime'
+      >
+        Boka Tid !
+      </a>
       {/* <div>
           mail.<a href='mailto: ewa@nailsbyec.se'>ewa@nailsbyec.com</a>
         </div>

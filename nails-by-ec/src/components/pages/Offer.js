@@ -43,7 +43,7 @@ export const Offer = () => {
           mot en avgift - <span className='price'>100 kr</span>.
         </li> */}
       </ul>
-      <br />
+      {/* <br /> */}
       <h1>Fransar</h1>
 
       <ul className='offer'>
@@ -54,6 +54,8 @@ export const Offer = () => {
         <li>
           <h3>Nytt Set Volymfransar</h3> - <span className='price'>470 kr</span>
         </li>
+        <br />
+        <p>(Jag använder bara syntetiska fransar.)</p>
       </ul>
       <br />
       <h1>Lojalitetsprogram</h1>
