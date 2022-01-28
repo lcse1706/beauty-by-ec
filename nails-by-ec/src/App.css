@@ -357,7 +357,7 @@ a.booktime:hover {
   }
 }
 
-@media (min-width: 1540px) {
+@media (min-width: 1530px) {
   a.booktime {
     top: 15px;
   }
