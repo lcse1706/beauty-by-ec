@@ -13,13 +13,13 @@ export const Offer = () => {
       <br />
       <ul className='offer'>
         <li>
-          <h3>Manikyr</h3> - <span className='price'>150 kr</span>
+          <h3>Manikyr</h3> - <span className='price'>200 kr</span>
         </li>
         <li>
-          <h3>Gellack</h3> - <span className='price'>390 kr</span>
+          <h3>Gellack</h3> - <span className='price'>395 kr</span>
         </li>
         <li>
-          <h3>Gellack - borttagning</h3> - <span className='price'>150 kr</span>
+          <h3>Gellack - borttagning</h3> - <span className='price'>200 kr</span>
         </li>
         {/* <li>
           <h3>Gellack</h3> -
@@ -27,11 +27,11 @@ export const Offer = () => {
         </li> */}
         <li>
           <h3>Nagelförlängning (gelénaglar) Nytt Set</h3> -
-          <span className='price'>490 kr</span>
+          <span className='price'> 550 kr</span>
         </li>
         <li>
           <h3>Nagelförlängning (Påfyllning)</h3> -
-          <span className='price'> 440 kr</span>
+          <span className='price'> 495 kr</span>
         </li>
         <li>
           <h3>Borttagning gelénaglar</h3> -{' '}
@@ -49,10 +49,21 @@ export const Offer = () => {
       <ul className='offer'>
         <li>
           <h3>Nytt Set Singelfransar</h3> -{' '}
-          <span className='price'>400 kr</span>
+          <span className='price'>500 kr</span>
         </li>
         <li>
-          <h3>Nytt Set Volymfransar</h3> - <span className='price'>470 kr</span>
+          <h3>Singelfransar (påfyllning, återbesök)</h3> -{' '}
+          <span className='price'>450 kr</span>
+        </li>
+        <li>
+          <h3>Nytt Set Volymfransar</h3> - <span className='price'>570 kr</span>
+        </li>
+        <li>
+          <h3>Volymfransar (påfyllning, återbesök)</h3> -{' '}
+          <span className='price'>500 kr</span>
+        </li>
+        <li>
+          <h3>Borttagning fransar</h3> - <span className='price'>300 kr</span>
         </li>
         <br />
         <p>(Jag använder bara syntetiska fransar.)</p>

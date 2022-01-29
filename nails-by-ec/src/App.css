@@ -361,6 +361,10 @@ a.booktime:hover {
   a.booktime {
     top: 15px;
   }
+
+  .text-container {
+    max-height: 70vh;
+  }
 }
 
 @media (min-width: 1920px) {
@@ -373,6 +377,10 @@ a.booktime:hover {
   }
   .navbar {
     justify-content: center;
+  }
+
+  .text-container {
+    max-height: 80vh;
   }
 }
 @media (orientation: landscape) and (max-width: 992px) {

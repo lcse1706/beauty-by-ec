@@ -8,7 +8,7 @@ const LogoWithBookbtn = () => {
         target='blink_'
         className='booktime'
       >
-        Boka Tid !
+        Boka Tid
       </a>
       {/* <div>
           mail.<a href='mailto: ewa@nailsbyec.se'>ewa@nailsbyec.com</a>
