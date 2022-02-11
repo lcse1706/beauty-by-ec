@@ -4,7 +4,7 @@ import { ImagerDisplay, imagerShow, ImagerImg } from '../imager/index.js';
 export const Offer = () => {
   return (
     <div className='text-container'>
-      <h1>Naglar</h1>
+      <h2>Naglar</h2>
       <p>
         Jag håller just nu på att göra naglar hemma i Vagnhärad medan jag letar
         efter ett ställe att tillhandahålla mina tjänster. Om du har några
@@ -44,7 +44,7 @@ export const Offer = () => {
         </li> */}
       </ul>
       {/* <br /> */}
-      <h1>Fransar</h1>
+      <h2>Fransar</h2>
 
       <ul className='offer'>
         <li>
@@ -69,7 +69,7 @@ export const Offer = () => {
         <p>(Jag använder bara syntetiska fransar.)</p>
       </ul>
       <br />
-      <h1>Lojalitetsprogram</h1>
+      <h2>Lojalitetsprogram</h2>
 
       <p className='loyal'>
         Om du samlar 6 st stämplar - du får 50% rabat till den sjunde

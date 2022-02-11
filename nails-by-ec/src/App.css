@@ -57,6 +57,11 @@ body::after {
   z-index: -2;
 }
 
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
 h3 {
   display: inline;
   font-size: 1.25rem;
@@ -107,6 +112,13 @@ p {
 
 .price {
   font-weight: 700;
+}
+
+.pageTitle {
+  margin: 5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-style: italic;
 }
 
 /* Navbar */
@@ -223,6 +235,15 @@ a.booktime:hover {
   background-color: rgba(0, 0, 0, 0.5);
   max-height: 80vh;
   overflow-y: scroll;
+}
+
+/* Home? */
+
+.home {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-style: italic;
 }
 
 /* Gallery */
@@ -354,6 +375,10 @@ a.booktime:hover {
 
   .navbar a:hover {
     color: #fff;
+  }
+
+  .pageTitle {
+    margin: 2rem;
   }
 }
 
