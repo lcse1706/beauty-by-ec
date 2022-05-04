@@ -38,11 +38,12 @@ img {
 }
 
 .logo {
-  width: 400px;
-  position: fixed;
+  width: 300px;
+  position: relative;
   top: 20%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, 0%);
+  
 }
 
 body::after {
@@ -52,7 +53,7 @@ body::after {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.3);
+  /* background-color: rgba(0, 0, 0, 0.1); */
   border-radius: 5px;
   z-index: -2;
 }
@@ -86,7 +87,7 @@ h3 {
 }
 
 .large {
-  font-size: 2rem;
+  font-size: 1.5rem;
   line-height: 1.2;
   margin-bottom: 1rem;
 }
@@ -115,9 +116,9 @@ p {
 }
 
 .pageTitle {
-  margin: 5rem;
+  margin: 1rem;
   font-family: 'Montserrat', sans-serif;
-  font-weight: 300;
+  font-weight: 500;
   font-style: italic;
 }
 
@@ -140,7 +141,7 @@ nav.showNav {
   font-weight: 300;
   font-style: italic;
   z-index: 1;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(255, 255, 255, 0.9);
   transition: 1s;
 }
 
@@ -156,7 +157,8 @@ nav.showNav {
 }
 
 .navbar a {
-  color: #e9e9e9;
+  /* color: #e9e9e9; */
+  color: #b8860b;
 
   padding: 0.45rem;
   margin: 0 2rem;
@@ -170,7 +172,7 @@ a.booktime {
   padding: 0.6rem;
   cursor: pointer;
   color: #fff;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: #b8860b;
   border-radius: 1rem;
   transition: 0.2s ease;
 
@@ -180,21 +182,24 @@ a.booktime {
 }
 
 a.booktime:hover {
-  color: #fff;
-  background-color: #000;
+  
+  color: #b8860b;
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 1px solid #b8860b;
 }
 
 /* Hamburger */
 
 .hamburger {
-  color: #fff;
+  color: #b8860b;
   position: fixed;
   left: 20px;
   top: 20px;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(255,255, 255, 0.8);
+  border: 1px solid #b8860b;
   padding: 8px 12px;
   border-radius: 20%;
-  border: none;
+  /* border: none; */
   cursor: pointer;
   z-index: 10;
 }
@@ -225,7 +230,8 @@ a.booktime:hover {
 }
 
 .sidebar a {
-  color: #fff;
+  /* color: #b8860b; */
+  color: #aa8736;
 }
 
 .text-container {
@@ -240,10 +246,20 @@ a.booktime:hover {
 /* Home? */
 
 .home {
-  color: #fff;
+  color: #b8860b;
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   font-style: italic;
+}
+.home-photo {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.salon {
+  width: 150px;
 }
 
 /* Gallery */
@@ -335,6 +351,10 @@ a.booktime:hover {
     width: 500px;
   }
 
+  .salon {
+    width: 500px;
+  }
+  
   .logo {
     display: none;
     width: 1000px;
@@ -365,6 +385,8 @@ a.booktime:hover {
     min-height: 10vh;
   }
 
+ 
+
   .large {
     font-size: 2.5rem;
   }
@@ -374,7 +396,7 @@ a.booktime:hover {
   }
 
   .navbar a:hover {
-    color: #fff;
+    color: #8d721e;
   }
 
   .pageTitle {
@@ -396,10 +418,10 @@ a.booktime:hover {
   .container {
     margin: 5vh auto;
   }
-
+/* 
   .large {
     font-size: 2.5rem;
-  }
+  } */
   .navbar {
     justify-content: center;
   }

@@ -1,20 +1,29 @@
 import React from 'react';
 import Logo from '../layout/Logo';
+import { ImagerDisplay, imagerShow, ImagerImg } from '../imager/index.js';
 
 export const Home = () => {
   return (
-    <div className='home'>
+    <div className='home '>
       <Logo />
       <h1 className='pageTitle large'>
-        Skönhetssalong - Naglar & Fransar
+        Fransförlangning & ÖgonBryn & Naglar
         <br />
-        Vagnharäd, Trosa kommun.
+        Skönhetssalong i Vagnharäd, Trosa kommun.
+        <br />
+        <br />
       </h1>
 
-      <p>
-        Jag jobbar just nu hemifrån. Jag letar efter ett ställe att hyra för en
-        skönhetssalong. Om du har några förslag, vänligen kontakta mig.
-      </p>
+      <div className='home-photo'>
+        <ImagerDisplay z-index='2000' />
+        <div className='salon'>
+          <ImagerImg
+            // width='100px'
+            src={require('../layout/salonIn.jpg')}
+            alt='Naglar Certifikat'
+          />
+        </div>
+      </div>
     </div>
   );
 };

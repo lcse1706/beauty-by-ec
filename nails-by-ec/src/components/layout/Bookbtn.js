@@ -4,7 +4,7 @@ const LogoWithBookbtn = () => {
   return (
     <div className='large'>
       <a
-        href='https://fb.com/book/NailsbyEvaC/'
+        href='https://www.bokadirekt.se/places/beauty-by-ec-47018'
         target='blink_'
         className='booktime'
       >
