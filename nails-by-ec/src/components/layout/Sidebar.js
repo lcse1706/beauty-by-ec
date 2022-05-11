@@ -5,12 +5,12 @@ const Sidebar = () => {
     <aside className='sidebar lead'>
       <ul>
         <li>
-          <a href='https://www.facebook.com/NailsbyEvaC' target='_blank'>
+          <a href='https://www.facebook.com/BeautyByEvaC' target='_blank'>
             <i className='fab fa-facebook'></i>
           </a>
         </li>
         <li>
-          <a href='http://m.me/NailsbyEvaC' target='_blank'>
+          <a href='http://m.me/BeautyByEvaC' target='_blank'>
             <i className='fab fa-facebook-messenger'></i>
           </a>
         </li>
@@ -25,7 +25,7 @@ const Sidebar = () => {
           </a>
         </li>
         <li>
-          <a href='mailto: ewa@nailsbyec.se'>
+          <a href='mailto: ewa@beautybyec.se'>
             <i className='fas fa-envelope-square'></i>
           </a>
         </li>

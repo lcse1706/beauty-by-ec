@@ -7,9 +7,9 @@ export const Home = () => {
     <div className='home '>
       <Logo />
       <h1 className='pageTitle large'>
-        Fransförlangning & ÖgonBryn & Naglar
+        Skönhetssalong - Centrumvägen 17, Vagnhärad.
         <br />
-        Skönhetssalong i Vagnharäd, Trosa kommun.
+        Fransförlangning & ÖgonBryn & Naglar
         <br />
         <br />
       </h1>
@@ -19,11 +19,19 @@ export const Home = () => {
         <div className='salon'>
           <ImagerImg
             // width='100px'
+            src={require('../layout/salonUt.jpg')}
+            alt='Salong Utte'
+          />
+        </div>
+        <div className='salon'>
+          <ImagerImg
+            // width='100px'
             src={require('../layout/salonIn.jpg')}
-            alt='Naglar Certifikat'
+            alt='Salong Inne'
           />
         </div>
       </div>
+      
     </div>
   );
 };
