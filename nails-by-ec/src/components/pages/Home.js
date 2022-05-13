@@ -6,6 +6,8 @@ export const Home = () => {
   return (
     <div className='home '>
       <Logo />
+      <p className='prevInfo'>Namnet har bytt från Nails by E.C.</p>
+      {/* <p className='prevInfo'>Tidigare Nails by E.C.</p> */}
       <h1 className='pageTitle large'>
         Skönhetssalong - Centrumvägen 17, Vagnhärad.
         <br />

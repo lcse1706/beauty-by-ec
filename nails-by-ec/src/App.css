@@ -110,6 +110,9 @@ p {
   font-style: italic;
 }
 
+.prevInfo {
+  font-size: 2rem;
+}
 /* Navbar */
 nav.showNav {
   display: flex;
