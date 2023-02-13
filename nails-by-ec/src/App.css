@@ -123,18 +123,7 @@ nav.showNav {
   height: 100%;
 }
 
-.navbar {
-  display: none;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 300;
-  font-style: italic;
-  z-index: 1;
-  background-color: rgba(255, 255, 255, 0.9);
-  transition: 1s;
-}
+
 
 .navbar img {
   width: 350px;
@@ -388,6 +377,10 @@ a.booktime:hover {
 
   .navbar a:hover {
     color: #8d721e;
+  }
+
+  .navbar a:active {
+    text-decoration: underline;
   }
 
   .pageTitle {

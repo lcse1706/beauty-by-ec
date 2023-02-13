@@ -4,7 +4,7 @@ import { ImagerDisplay, imagerShow, ImagerImg } from '../imager/index.js';
 
 export const Home = () => {
   return (
-    <div className='home '>
+    <div className='home'>
       <Logo />
 
       <h1 className='pageTitle large'>

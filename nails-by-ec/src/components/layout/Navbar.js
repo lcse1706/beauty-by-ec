@@ -1,6 +1,7 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import logo from './logo.svg';
+import classes from './Navbar.module.css';
 
 const Navbar = () => {
   const hideNav = () => {
@@ -8,28 +9,34 @@ const Navbar = () => {
     document.querySelector('.navbar').classList.remove('showNav');
   };
   return (
-    <nav className='navbar large'>
+    <nav className={classes.navbar}>
       <img src={logo} alt='Logo Nails By EC' />
-      <ul>
+      <ul className={classes.list}>
         <li>
-          <Link onClick={hideNav} to='/home'>
+          <NavLink
+            onClick={hideNav}
+            to=''
+            className={({ isActive }) =>
+              isActive ? classes.active : undefined
+            }
+          >
             Hem
-          </Link>
+          </NavLink>
         </li>
         <li>
-          <Link onClick={hideNav} to='/gallery'>
+          <NavLink onClick={hideNav} to='gallery'>
             Galleri
-          </Link>
+          </NavLink>
         </li>
         <li>
-          <Link onClick={hideNav} to='/offer'>
+          <NavLink onClick={hideNav} to='offer'>
             Erbjudande
-          </Link>
+          </NavLink>
         </li>
         <li>
-          <Link onClick={hideNav} to='/about'>
+          <NavLink onClick={hideNav} to='about'>
             Om Mig
-          </Link>
+          </NavLink>
         </li>
       </ul>
     </nav>
