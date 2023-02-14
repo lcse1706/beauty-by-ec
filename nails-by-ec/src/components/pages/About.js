@@ -23,14 +23,14 @@ export const About = () => {
         <div className='certificate'>
           <ImagerImg
             // width='100px'
-            src={require('../layout/nailsCertificate.jpg')}
+            src={require('../layout/img/nailsCertificate.jpg')}
             alt='Naglar Certifikat'
           />
         </div>
         <div className='certificate big'>
           <ImagerImg
             // width='100px'
-            src={require('../layout/lashesCertificate.jpg')}
+            src={require('../layout/img/lashesCertificate.jpg')}
             alt='Fransar Certifikat'
           />
         </div>

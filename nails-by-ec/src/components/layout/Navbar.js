@@ -1,11 +1,10 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import logo from './logo.svg';
+import logo from './img/logo.svg';
 import classes from './Navbar.module.css';
 
 const Navbar = () => {
   const hideNav = () => {
-    console.log('it works');
     document.querySelector('.navbar').classList.remove('showNav');
   };
   return (
@@ -24,17 +23,35 @@ const Navbar = () => {
           </NavLink>
         </li>
         <li>
-          <NavLink onClick={hideNav} to='gallery'>
+          <NavLink
+            onClick={hideNav}
+            to='gallery'
+            className={({ isActive }) =>
+              isActive ? classes.active : undefined
+            }
+          >
             Galleri
           </NavLink>
         </li>
         <li>
-          <NavLink onClick={hideNav} to='offer'>
+          <NavLink
+            onClick={hideNav}
+            to='offer'
+            className={({ isActive }) =>
+              isActive ? classes.active : undefined
+            }
+          >
             Erbjudande
           </NavLink>
         </li>
         <li>
-          <NavLink onClick={hideNav} to='about'>
+          <NavLink
+            onClick={hideNav}
+            to='about'
+            className={({ isActive }) =>
+              isActive ? classes.active : undefined
+            }
+          >
             Om Mig
           </NavLink>
         </li>

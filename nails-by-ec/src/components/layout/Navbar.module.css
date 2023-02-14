@@ -66,9 +66,9 @@
     color: #8d721e;
   }
 
-  .navbar a:active {
+  /* .navbar a:active {
     text-decoration: underline;
-  }
+  } */
 }
 
 @media (min-width: 1530px) {

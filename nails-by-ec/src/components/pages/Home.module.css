@@ -1,0 +1,55 @@
+.home {
+  color: #b8860b;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+}
+.homePhoto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.salon {
+  width: 150px;
+}
+
+
+.pageTitle {
+  margin: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+  .homePhoto{
+    flex-direction: row;
+
+  }
+
+  .pageTitle {
+    margin: 2rem;
+  }
+
+  .salon {
+    width: 500px;
+  }
+}
+
+@media (min-width: 1530px) {}
+
+@media (min-width: 1920px) {}
