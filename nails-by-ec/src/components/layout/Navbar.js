@@ -9,7 +9,7 @@ const Navbar = () => {
     document.querySelector('.navbar').classList.remove('showNav');
   };
   return (
-    <nav className={classes.navbar}>
+    <nav className={`${classes.navbar} large`}>
       <img src={logo} alt='Logo Nails By EC' />
       <ul className={classes.list}>
         <li>
