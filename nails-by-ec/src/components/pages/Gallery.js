@@ -1,26 +1,27 @@
 import React from 'react';
+import classes from './Gallery.module.css';
 
 import { ImagerDisplay, imagerShow, ImagerImg } from '../imager/index.js';
 
 export const Gallery = () => {
   return (
-    <div className='gallery text-container'>
+    <div className={`${classes.gallery} shadowed-container`}>
       <ImagerDisplay z-index='2000' />
-      <div className='picture'>
+      <div className={classes.picture}>
         <ImagerImg
           width='100px'
           src={require('../imgs/1.jpg')}
           alt='Naglar 1, Nails 1'
         />
       </div>
-      <div className='picture'>
+      <div className={classes.picture}>
         <ImagerImg
           width='100px'
           src={require('../imgs/2.jpg')}
           alt='Naglar 2, Nails 2'
         />
       </div>
-      <div className='picture'>
+      {/* <div className='picture'>
         <ImagerImg
           width='100px'
           src={require('../imgs/3.jpg')}
@@ -61,17 +62,17 @@ export const Gallery = () => {
           src={require('../imgs/8.jpg')}
           alt='Fransar 3, Lashes 3'
         />
-      </div>
+      </div> */}
       {/* <div className='picture'>
         <ImagerImg width='100px' src={require('../imgs/9.jpg')} alt='Zdjecie' />
       </div> */}
-      <div className='picture'>
+      {/* <div className='picture'>
         <ImagerImg
           width='100px'
           src={require('../imgs/10.jpg')}
           alt='Fransar 4, Lashes 4'
         />
-      </div>
+      </div> */}
     </div>
   );
 };

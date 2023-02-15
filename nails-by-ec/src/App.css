@@ -191,29 +191,18 @@ a.booktime:hover {
   color: #aa8736;
 }
 
-.text-container {
+.shadowed-container {
+  margin: auto;
   padding: 2rem;
   border-radius: 1rem;
   color: #fff;
   background-color: rgba(0, 0, 0, 0.5);
   max-height: 80vh;
+  max-width: 90vw;
   overflow-y: scroll;
 }
 
 
-
-/* Gallery */
-
-.gallery {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-
-.gallery .picture {
-  width: 300px;
-}
 
 /* About */
 
@@ -283,7 +272,7 @@ a.booktime:hover {
     padding: 0 1rem 2rem 1rem;
   }
 
-  .text-container {
+  .shadowed-container {
     font-size: 1.25rem;
   }
 
@@ -325,7 +314,7 @@ a.booktime:hover {
     top: 15px;
   }
 
-  .text-container {
+  .shadowed-container {
     max-height: 70vh;
   }
 }
@@ -340,7 +329,7 @@ a.booktime:hover {
   } */
   
 
-  .text-container {
+  .shadowed-container {
     max-height: 80vh;
   }
 }
