@@ -88,20 +88,14 @@ h1 {
   margin-bottom: 2rem;
 }
 
-.loyal {
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: bold;
-}
+
 
 p {
   text-align: center;
   text-indent: 2rem;
 }
 
-.price {
-  font-weight: 700;
-}
+
 
 
 .prevInfo {
@@ -206,7 +200,7 @@ a.booktime:hover {
 
 /* About */
 
-.photo-container {
+.pic-container {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
