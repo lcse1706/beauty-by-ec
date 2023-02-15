@@ -1,15 +1,3 @@
-h1 {
-  text-align: center;
-}
-
-.certificate {
-  width: 500px;
-}
-
-.certificateBigger {
-  width: 600px;
-}
-
 @media (min-width: 576px) {}
 
 @media (min-width: 768px) {}

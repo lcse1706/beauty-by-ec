@@ -113,48 +113,6 @@ nav.showNav {
 
 
 
-
-
-a.booktime {
-  /* display: none; */
-  font-family: 'Montserrat', sans-serif;
-  font-style: italic;
-  font-weight: 200;
-  padding: 0.6rem;
-  cursor: pointer;
-  color: #fff;
-  background-color: #b8860b;
-  border-radius: 1rem;
-  transition: 0.2s ease;
-
-  position: fixed;
-  top: 15px;
-  right: 20px;
-}
-
-a.booktime:hover {
-  
-  color: #b8860b;
-  background-color: rgba(255, 255, 255, 0.7);
-  border: 1px solid #b8860b;
-}
-
-/* Hamburger */
-
-.hamburger {
-  color: #b8860b;
-  position: fixed;
-  left: 20px;
-  top: 20px;
-  background-color: rgba(255,255, 255, 0.8);
-  border: 1px solid #b8860b;
-  padding: 8px 12px;
-  border-radius: 20%;
-  /* border: none; */
-  cursor: pointer;
-  z-index: 10;
-}
-
 /* Sidebar */
 
 .sidebar {
@@ -265,15 +223,6 @@ a.booktime:hover {
     width: 1000px;
     top: 50%;
   }
-
-  .hamburger {
-    display: none;
-  }
-
-  
-
- 
-
   .large {
     font-size: 2.5rem;
   }

@@ -1,4 +1,5 @@
 import React from 'react';
+import classes from './BookBtn.module.css';
 
 const LogoWithBookbtn = () => {
   return (
@@ -6,14 +7,10 @@ const LogoWithBookbtn = () => {
       <a
         href='https://www.bokadirekt.se/places/beauty-by-ec-47018'
         target='blink_'
-        className='booktime'
+        className={classes.booktime}
       >
         Boka Tid
       </a>
-      {/* <div>
-          mail.<a href='mailto: ewa@nailsbyec.se'>ewa@nailsbyec.com</a>
-        </div>
-        <div>tel. 072 761 50 18</div> */}
     </div>
   );
 };

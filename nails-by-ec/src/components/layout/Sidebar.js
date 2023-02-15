@@ -1,16 +1,21 @@
 import React from 'react';
+import classes from './Sidebar.module.css';
 
 const Sidebar = () => {
   return (
-    <aside className='sidebar lead'>
+    <aside className={`${classes.sidebar} lead`}>
       <ul>
         <li>
-          <a href='https://www.facebook.com/BeautyByEvaC' target='_blank'>
+          <a
+            href='https://www.facebook.com/BeautyByEvaC'
+            target='_blank'
+            rel='noreferrer'
+          >
             <i className='fab fa-facebook'></i>
           </a>
         </li>
         <li>
-          <a href='http://m.me/BeautyByEvaC' target='_blank'>
+          <a href='http://m.me/BeautyByEvaC' target='_blank' rel='noreferrer'>
             <i className='fab fa-facebook-messenger'></i>
           </a>
         </li>
@@ -20,7 +25,7 @@ const Sidebar = () => {
           </a>
         </li>
         <li>
-          <a href='tel:727615018' target='_blank'>
+          <a href='tel:727615018' target='_blank' rel='noreferrer'>
             <i className='fas fa-phone-square'></i>
           </a>
         </li>

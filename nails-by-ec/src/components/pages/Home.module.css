@@ -26,25 +26,20 @@
 }
 
 
-@media (min-width: 576px) {
-}
+@media (min-width: 576px) {}
 
-@media (min-width: 768px) {
-}
+@media (min-width: 768px) {}
 
-@media (min-width: 992px) {
-}
+@media (min-width: 992px) {}
 
 @media (min-width: 1200px) {
   .homePhoto{
     flex-direction: row;
 
   }
-
   .pageTitle {
     margin: 2rem;
   }
-
   .salon {
     width: 500px;
   }
