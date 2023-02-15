@@ -207,18 +207,7 @@ a.booktime:hover {
   flex-wrap: wrap;
 }
 
-.certificate {
-  width: 500px;
-}
 
-.certificate.big {
-  width: 600px;
-}
-
-.card {
-  margin: 2rem;
-  width: 300px;
-}
 
 /* Scrollbar */
 
@@ -269,11 +258,6 @@ a.booktime:hover {
   .shadowed-container {
     font-size: 1.25rem;
   }
-
-  .card {
-    width: 500px;
-  }
-
   
   
   .logo {

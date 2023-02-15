@@ -1,9 +1,10 @@
 import React from 'react';
 import { ImagerDisplay, imagerShow, ImagerImg } from '../imager/index.js';
+import classes from './About.module.css';
 
 export const About = () => {
   return (
-    <div className='text-container'>
+    <div className='shadowed-container'>
       <h1>Om Mig</h1>
       <p>
         Jag heter Ewa Czarniecka. Jag är certifierad manikyr och
@@ -18,16 +19,16 @@ export const About = () => {
       </p>
       <br />
       <h1>Mina Certifikat</h1>
-      <div className='photo-container'>
+      <div className='pic-container'>
         <ImagerDisplay z-index='2000' />
-        <div className='certificate'>
+        <div className={classes.certificate}>
           <ImagerImg
             // width='100px'
             src={require('../layout/img/nailsCertificate.jpg')}
             alt='Naglar Certifikat'
           />
         </div>
-        <div className='certificate big'>
+        <div className={classes.certificateBigger}>
           <ImagerImg
             // width='100px'
             src={require('../layout/img/lashesCertificate.jpg')}
