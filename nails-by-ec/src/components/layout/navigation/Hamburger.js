@@ -3,7 +3,6 @@ import classes from './Hamburger.module.css';
 
 const Hamburger = () => {
   const handleMenu = () => {
-    // console.log('it works');
     document.querySelector('.navbar').classList.toggle('showNav');
   };
 

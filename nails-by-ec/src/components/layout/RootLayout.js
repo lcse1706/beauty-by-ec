@@ -1,16 +1,10 @@
 import { Outlet } from 'react-router-dom';
-import Navbar from './Navbar';
-import Sidebar from './Sidebar';
-import BookBtn from './BookBtn';
-import Hamburger from './Hamburger';
+import NavLayout from './NavLayout';
 
 const RootLayout = () => {
   return (
     <>
-      <Hamburger />
-      <BookBtn />
-      <Navbar />
-      <Sidebar />
+      <NavLayout />
       <Outlet />
     </>
   );
