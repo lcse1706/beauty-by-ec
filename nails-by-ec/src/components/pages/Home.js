@@ -2,6 +2,20 @@ import React from 'react';
 import Logo from '../layout/Logo';
 import { ImagerDisplay, imagerShow, ImagerImg } from '../imager/index.js';
 import classes from './Home.module.css';
+import MyGallery from './MyGallery';
+
+const imgs = [
+  {
+    url: require('../layout/img/salonUt.jpg'),
+    alt: 'Salong Utte',
+    style: { width: '400px' },
+  },
+  {
+    url: require('../layout/img/salonIn.jpg'),
+    alt: 'Salong Inne',
+    style: { width: '300px' },
+  },
+];
 
 export const Home = () => {
   return (
@@ -16,23 +30,7 @@ export const Home = () => {
         <br />
       </h1>
 
-      <div className={classes.homePhoto}>
-        <ImagerDisplay z-index='2000' />
-        <div className={classes.salon}>
-          <ImagerImg
-            // width='100px'
-            src={require('../layout/img/salonUt.jpg')}
-            alt='Salong Utte'
-          />
-        </div>
-        <div className={classes.salon}>
-          <ImagerImg
-            // width='100px'
-            src={require('../layout/img/salonIn.jpg')}
-            alt='Salong Inne'
-          />
-        </div>
-      </div>
+      <MyGallery images={imgs} />
     </div>
   );
 };
