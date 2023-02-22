@@ -1,10 +1,6 @@
 import React from 'react';
 import Logo from '../components/layout/Logo';
-import {
-  ImagerDisplay,
-  imagerShow,
-  ImagerImg,
-} from '../components/imager/index.js';
+
 import classes from './Home.module.css';
 import MyGallery from '../components/gallery/MyGallery';
 
@@ -30,11 +26,10 @@ export const Home = () => {
         Skönhetssalong - Centrumvägen 17, Vagnhärad.
         <br />
         Fransförlangning & ÖgonBryn & Naglar
-        <br />
-        <br />
       </h1>
-
-      <MyGallery images={imgs} />
+      <div className={classes.homePhoto}>
+        <MyGallery images={imgs} />
+      </div>
     </div>
   );
 };

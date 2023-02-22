@@ -1,9 +1,23 @@
+.shadowed-container {
+  margin: auto;
+  /* padding: 2rem; */
+  border-radius: 1rem;
+  color: #fff;
+  max-height: 80vh;
+  max-width: 90vw;
+  overflow-y: scroll;
+}
+
 .home {
   color: #b8860b;
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   font-style: italic;
   text-align: center;
+  margin: 4rem auto; 
+  max-height: 90vh;
+  max-width: 80vw;
+  overflow-y: scroll;
 }
 .homePhoto {
   display: flex;
@@ -13,9 +27,11 @@
   flex-wrap: wrap;
 }
 
-.salon {
-  width: 150px;
+.homePhoto img {
+  margin: 2rem;
+  max-width: 80%;
 }
+
 
 
 .pageTitle {
@@ -33,16 +49,21 @@
 @media (min-width: 992px) {}
 
 @media (min-width: 1200px) {
+  .home {
+    margin: 2rem auto; 
+  }
+  
   .homePhoto{
     flex-direction: row;
-
   }
   .pageTitle {
     margin: 2rem;
   }
-  .salon {
-    width: 500px;
+
+  .homePhoto img {
+    max-width: 100%;
   }
+
 }
 
 @media (min-width: 1530px) {}
