@@ -3,10 +3,10 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import RootLayout from './components/layout/RootLayout';
 
-import { Home } from './components/pages/Home';
-import { Gallery } from './components/pages/Gallery';
-import { Offer } from './components/pages/Offer';
-import { About } from './components/pages/About';
+import { Home } from './pages/Home';
+import { Gallery } from './pages/Gallery';
+import { Offer } from './pages/Offer';
+import { About } from './pages/About';
 
 import './App.css';
 

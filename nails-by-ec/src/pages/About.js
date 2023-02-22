@@ -1,5 +1,9 @@
 import React from 'react';
-import { ImagerDisplay, imagerShow, ImagerImg } from '../imager/index.js';
+import {
+  ImagerDisplay,
+  imagerShow,
+  ImagerImg,
+} from '../components/imager/index.js';
 import classes from './About.module.css';
 
 export const About = () => {
@@ -24,14 +28,14 @@ export const About = () => {
         <div className={classes.certificate}>
           <ImagerImg
             // width='100px'
-            src={require('../layout/img/nailsCertificate.jpg')}
+            src={require('../components/layout/img/nailsCertificate.jpg')}
             alt='Naglar Certifikat'
           />
         </div>
         <div className={classes.certificateBigger}>
           <ImagerImg
             // width='100px'
-            src={require('../layout/img/lashesCertificate.jpg')}
+            src={require('../components/layout/img/lashesCertificate.jpg')}
             alt='Fransar Certifikat'
           />
         </div>
