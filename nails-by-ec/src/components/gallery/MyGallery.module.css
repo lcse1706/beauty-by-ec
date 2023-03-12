@@ -28,8 +28,8 @@
 }
 
 .modal-inner{
-  max-width: 600px;
-  min-width: 400px;
+  max-width: 1000px;
+  min-width: 800px;
   padding: 2rem;
   border-radius: 5px;
   min-height: 200px;
@@ -42,7 +42,8 @@
   transform: translateY(0);
 }
 
-.modal-outer img {
+.modal-inner img {
+  margin: auto;
   width: 100%;
 }
 
