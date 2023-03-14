@@ -3,27 +3,17 @@ import React, { useState } from 'react';
 import classes from './MyGallery.module.css';
 
 export const Gallery = props => {
-  const [modalUrl, setModalUrl] = useState('');
+  const [modalInfo, setModalInfo] = useState({});
 
   const handleModal = e => {
-    setModalUrl(e.currentTarget.src);
+    setModalInfo({
+      src: e.currentTarget.src,
+      alt: e.currentTarget.alt,
+    });
 
-    console.log(modalUrl);
+    console.log(modalInfo);
 
     document.querySelector('.modal').classList.add(`${classes.open}`);
-
-    // grab the image source !!!
-
-    // // populate the modal with ne info
-    // modalInner.innerHTML = `
-    //    <img width='600' height='600' src="${imgSrc.replace(
-    //      '200',
-    //      '600'
-    //    )}" alt="${name}"/>
-    //    <p>${desc}</p>
-    //   `;
-    //show the modal
-    // modalOuter.classList.add('open');
   };
 
   const closeModal = () => {
@@ -34,7 +24,7 @@ export const Gallery = props => {
     <>
       {props.images.map(image => (
         <img
-          src={image.url}
+          src={image.src}
           alt={image.alt}
           style={image.style}
           key={image.alt}
@@ -44,7 +34,7 @@ export const Gallery = props => {
 
       <div className={`${classes['modal-outer']} modal`} onClick={closeModal}>
         <div className={classes['modal-inner']}>
-          <img src={modalUrl} />
+          <img src={modalInfo.src} alt={modalInfo.alt} />
         </div>
       </div>
     </>

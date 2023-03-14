@@ -6,12 +6,12 @@ import MyGallery from '../components/gallery/MyGallery';
 
 const imgs = [
   {
-    url: require('../components/layout/img/salonUt.jpg'),
+    src: require('../components/layout/img/salonUt.jpg'),
     alt: 'Salong Utte',
     style: { width: '400px' },
   },
   {
-    url: require('../components/layout/img/salonIn.jpg'),
+    src: require('../components/layout/img/salonIn.jpg'),
     alt: 'Salong Inne',
     style: { width: '300px' },
   },

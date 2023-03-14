@@ -1,10 +1,21 @@
 import React from 'react';
 import classes from './Offer.module.css';
-import {
-  ImagerDisplay,
-  imagerShow,
-  ImagerImg,
-} from '../components/imager/index.js';
+import MyGallery from '../components/gallery/MyGallery';
+
+const PICTURE_WIDTH = '300px';
+
+const imgs = [
+  {
+    src: require('../components/layout/img/card_front.jpg'),
+    alt: 'VisitCard Front',
+    style: { width: PICTURE_WIDTH },
+  },
+  {
+    src: require('../components/layout/img/card_back.jpg'),
+    alt: 'Visitcard Back',
+    style: { width: PICTURE_WIDTH },
+  },
+];
 
 export const Offer = () => {
   return (
@@ -100,55 +111,6 @@ export const Offer = () => {
           <span className={classes.price}>390kr</span>
         </li>
       </ul>
-      {/* <ul className='offer'>
-        <li>
-          <h3>Manikyr</h3> - <span className='price'>200 kr</span>
-        </li>
-        <li>
-          <h3>Gellack</h3> - <span className='price'>395 kr</span>
-        </li>
-        <li>
-          <h3>Gellack - borttagning</h3> - <span className='price'>200 kr</span>
-        </li>
-        <li>
-          <h3>Nagelförlängning (gelénaglar) Nytt Set</h3> -
-          <span className='price'> 550 kr</span>
-        </li>
-        <li>
-          <h3>Nagelförlängning (Påfyllning)</h3> -
-          <span className='price'> 495 kr</span>
-        </li>
-        <li>
-          <h3>Borttagning gelénaglar</h3> -{' '}
-          <span className='price'>200 kr</span>
-        </li>
-        <br />
-      </ul>
-  
-      <h2>Fransar</h2>
-
-      <ul className='offer'>
-        <li>
-          <h3>Nytt Set Singelfransar</h3> -{' '}
-          <span className='price'>500 kr</span>
-        </li>
-        <li>
-          <h3>Singelfransar (påfyllning, återbesök)</h3> -{' '}
-          <span className='price'>450 kr</span>
-        </li>
-        <li>
-          <h3>Nytt Set Volymfransar</h3> - <span className='price'>570 kr</span>
-        </li>
-        <li>
-          <h3>Volymfransar (påfyllning, återbesök)</h3> -{' '}
-          <span className='price'>500 kr</span>
-        </li>
-        <li>
-          <h3>Borttagning fransar</h3> - <span className='price'>300 kr</span>
-        </li>
-        <br />
-        <p>(Jag använder bara syntetiska fransar.)</p>
-      </ul> */}
       <br />
 
       <h2 style={{ textAlign: 'center' }}>Lojalitetsprogram</h2>
@@ -158,19 +120,7 @@ export const Offer = () => {
         behandlingen !
       </p>
       <div className='pic-container'>
-        <ImagerDisplay z-index='2000' />
-        <div className={classes.card}>
-          <ImagerImg
-            src={require('../components/layout/img/card_front.jpg')}
-            alt='Visitkort NailsByEC Framsidan'
-          />
-        </div>
-        <div className={classes.card}>
-          <ImagerImg
-            src={require('../components/layout/img/card_back.jpg')}
-            alt='Visitkort NailsByEC Baksidan'
-          />
-        </div>
+        <MyGallery images={imgs} />
       </div>
     </div>
   );

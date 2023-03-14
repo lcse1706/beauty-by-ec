@@ -12,11 +12,6 @@
   font-weight: bold;
 }
 
-.card {
-  margin: 2rem;
-  width: 300px;
-}
-
 
 @media (min-width: 576px) {}
 
@@ -25,9 +20,7 @@
 @media (min-width: 992px) {}
 
 @media (min-width: 1200px) {
-  .card {
-    width: 500px;
-  }
+
 }
 
 @media (min-width: 1530px) {}

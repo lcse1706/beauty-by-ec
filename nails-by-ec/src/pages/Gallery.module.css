@@ -5,9 +5,9 @@
   flex-wrap: wrap;
 }
 
-.gallery .picture {
+/* .gallery img {
   width: 300px;
-}
+} */
 
 @media (min-width: 576px) {}
 

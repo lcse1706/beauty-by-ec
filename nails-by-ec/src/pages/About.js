@@ -1,10 +1,22 @@
 import React from 'react';
-import {
-  ImagerDisplay,
-  imagerShow,
-  ImagerImg,
-} from '../components/imager/index.js';
+import MyGallery from '../components/gallery/MyGallery';
+
 import classes from './About.module.css';
+
+const PICTURE_WIDTH = '500px';
+
+const imgs = [
+  {
+    src: require('../components/layout/img/nailsCertificate.jpg'),
+    alt: 'Naglar Certifikat',
+    style: { width: PICTURE_WIDTH },
+  },
+  {
+    src: require('../components/layout/img/lashesCertificate.jpg'),
+    alt: 'Fransar Certifikat',
+    style: { width: PICTURE_WIDTH },
+  },
+];
 
 export const About = () => {
   return (
@@ -24,21 +36,7 @@ export const About = () => {
       <br />
       <h1>Mina Certifikat</h1>
       <div className='pic-container'>
-        <ImagerDisplay z-index='2000' />
-        <div className={classes.certificate}>
-          <ImagerImg
-            // width='100px'
-            src={require('../components/layout/img/nailsCertificate.jpg')}
-            alt='Naglar Certifikat'
-          />
-        </div>
-        <div className={classes.certificateBigger}>
-          <ImagerImg
-            // width='100px'
-            src={require('../components/layout/img/lashesCertificate.jpg')}
-            alt='Fransar Certifikat'
-          />
-        </div>
+        <MyGallery images={imgs} />
       </div>
     </div>
   );
