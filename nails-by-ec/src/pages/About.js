@@ -16,6 +16,16 @@ const imgs = [
     alt: 'Fransar Certifikat',
     style: { width: PICTURE_WIDTH },
   },
+  {
+    src: require('../components/layout/img/efilCertificate.jpg'),
+    alt: 'E-fil Certifikat',
+    style: { width: PICTURE_WIDTH },
+  },
+  {
+    src: require('../components/layout/img/speedCertificate.jpg'),
+    alt: 'Speed Managment Certifikat',
+    style: { width: PICTURE_WIDTH },
+  },
 ];
 
 export const About = () => {
@@ -35,7 +45,7 @@ export const About = () => {
       </p>
       <br />
       <h1>Mina Certifikat</h1>
-      <div className='pic-container'>
+      <div className={`${classes.pics} pic-container`}>
         <MyGallery images={imgs} />
       </div>
     </div>
