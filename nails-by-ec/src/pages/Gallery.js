@@ -5,40 +5,47 @@ import MyGallery from '../components/gallery/MyGallery';
 const imgs = [
   {
     src: require('../components/imgs/1.jpg'),
-    alt: 'Naglar 1, Nails 1',
+    alt: 'Salong Verk 1',
   },
   {
     src: require('../components/imgs/2.jpg'),
-    alt: 'Naglar 2, Nails 2',
+    alt: 'Salong Verk 2',
+  },
+  {
+    src: require('../components/imgs/3.jpg'),
+    alt: 'Salong Verk 3',
   },
   {
     src: require('../components/imgs/4.jpg'),
-    alt: 'Naglar 4, Nails 4',
+    alt: 'Salong Verk 4',
   },
   {
     src: require('../components/imgs/5.jpg'),
-    alt: 'Naglar 5, Nails 5',
+    alt: 'Salong Verk 5',
   },
   {
     src: require('../components/imgs/6.jpg'),
-    alt: 'Naglar 6, Nails 6',
+    alt: 'Salong Verk 6',
   },
   {
     src: require('../components/imgs/7.jpg'),
-    alt: 'Naglar 7, Nails 7',
+    alt: 'Salong Verk 7',
   },
   {
     src: require('../components/imgs/8.jpg'),
-    alt: 'Naglar 8, Nails 8',
+    alt: 'Salong Verk 8',
   },
-  // {
-  //   src: require('../components/imgs/9.jpg'),
-  //   alt: 'Naglar 9, Nails 9',
-  //   style: { width: PICTURE_WIDTH },
-  // },
+  {
+    src: require('../components/imgs/9.jpg'),
+    alt: 'Salong Verk 9',
+  },
   {
     src: require('../components/imgs/10.jpg'),
-    alt: 'Naglar 10, Nails 10',
+    alt: 'Salong Verk 10',
+  },
+  {
+    src: require('../components/imgs/11.jpg'),
+    alt: 'Salong Verk 11',
   },
 ];
 
