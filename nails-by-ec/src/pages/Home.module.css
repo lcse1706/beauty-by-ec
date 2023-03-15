@@ -14,7 +14,7 @@
   font-weight: 300;
   font-style: italic;
   text-align: center;
-  margin: 4rem auto; 
+  /* margin: 4rem auto;  */
   max-height: 90vh;
   max-width: 80vw;
   overflow-y: scroll;
@@ -30,6 +30,7 @@
 .homePhoto img {
   margin: 2rem;
   max-width: 80%;
+  width: 400px;
 }
 
 
@@ -46,26 +47,26 @@
 
 @media (min-width: 768px) {}
 
-@media (min-width: 992px) {}
-
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
   .home {
-    margin: 2rem auto; 
-  }
-  
-  .homePhoto{
-    flex-direction: row;
-  }
-  .pageTitle {
-    margin: 2rem;
-  }
-
-  .homePhoto img {
-    max-width: 100%;
-  }
-
+  margin: auto; 
 }
 
-@media (min-width: 1530px) {}
+.homePhoto{
+  flex-direction: row;
+}
+.pageTitle {
+  margin: 2rem;
+}
+
+.homePhoto img {
+  max-width: 100%;
+}}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1530px) {  
+}
 
 @media (min-width: 1920px) {}

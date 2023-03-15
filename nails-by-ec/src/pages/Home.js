@@ -8,12 +8,10 @@ const imgs = [
   {
     src: require('../components/layout/img/salonUt.jpg'),
     alt: 'Salong Utte',
-    style: { width: '400px' },
   },
   {
     src: require('../components/layout/img/salonIn.jpg'),
     alt: 'Salong Inne',
-    style: { width: '300px' },
   },
 ];
 

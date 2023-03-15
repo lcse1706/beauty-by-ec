@@ -2,18 +2,14 @@ import React from 'react';
 import classes from './Offer.module.css';
 import MyGallery from '../components/gallery/MyGallery';
 
-const PICTURE_WIDTH = '300px';
-
 const imgs = [
   {
     src: require('../components/layout/img/card_front.jpg'),
     alt: 'VisitCard Front',
-    style: { width: PICTURE_WIDTH },
   },
   {
     src: require('../components/layout/img/card_back.jpg'),
     alt: 'Visitcard Back',
-    style: { width: PICTURE_WIDTH },
   },
 ];
 
@@ -119,7 +115,7 @@ export const Offer = () => {
         Om du samlar 6 st stämplar - du får 50% rabat till den sjunde
         behandlingen !
       </p>
-      <div className='pic-container'>
+      <div className={`${classes.pics} pic-container`}>
         <MyGallery images={imgs} />
       </div>
     </div>

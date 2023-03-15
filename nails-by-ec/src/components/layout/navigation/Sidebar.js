@@ -30,7 +30,7 @@ const Sidebar = () => {
           </a>
         </li>
         <li>
-          <a href='mailto: ewa@beautybyec.se'>
+          <a href='mailto:ewa@beautybyec.se'>
             <i className='fas fa-envelope-square'></i>
           </a>
         </li>

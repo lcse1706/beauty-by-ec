@@ -5,7 +5,9 @@ const RootLayout = () => {
   return (
     <>
       <NavLayout />
-      <Outlet />
+      <div className='container'>
+        <Outlet />
+      </div>
     </>
   );
 };

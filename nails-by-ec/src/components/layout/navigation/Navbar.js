@@ -8,8 +8,8 @@ const Navbar = () => {
     document.querySelector('.navbar').classList.remove('showNav');
   };
   return (
-    <nav className={`${classes.navbar} large`}>
-      <img src={logo} alt='Logo Nails By EC' />
+    <nav className={`${classes.navbar} large navbar`}>
+      <img style={{ cursor: 'default' }} src={logo} alt='Logo Nails By EC' />
       <ul className={classes.list}>
         <li>
           <NavLink

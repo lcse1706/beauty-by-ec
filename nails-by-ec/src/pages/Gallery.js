@@ -2,43 +2,34 @@ import React from 'react';
 import classes from './Gallery.module.css';
 import MyGallery from '../components/gallery/MyGallery';
 
-const PICTURE_WIDTH = '300px';
-
 const imgs = [
   {
     src: require('../components/imgs/1.jpg'),
     alt: 'Naglar 1, Nails 1',
-    style: { width: PICTURE_WIDTH },
   },
   {
     src: require('../components/imgs/2.jpg'),
     alt: 'Naglar 2, Nails 2',
-    style: { width: PICTURE_WIDTH },
   },
   {
     src: require('../components/imgs/4.jpg'),
     alt: 'Naglar 4, Nails 4',
-    style: { width: PICTURE_WIDTH },
   },
   {
     src: require('../components/imgs/5.jpg'),
     alt: 'Naglar 5, Nails 5',
-    style: { width: PICTURE_WIDTH },
   },
   {
     src: require('../components/imgs/6.jpg'),
     alt: 'Naglar 6, Nails 6',
-    style: { width: PICTURE_WIDTH },
   },
   {
     src: require('../components/imgs/7.jpg'),
     alt: 'Naglar 7, Nails 7',
-    style: { width: PICTURE_WIDTH },
   },
   {
     src: require('../components/imgs/8.jpg'),
     alt: 'Naglar 8, Nails 8',
-    style: { width: PICTURE_WIDTH },
   },
   // {
   //   src: require('../components/imgs/9.jpg'),
@@ -48,7 +39,6 @@ const imgs = [
   {
     src: require('../components/imgs/10.jpg'),
     alt: 'Naglar 10, Nails 10',
-    style: { width: PICTURE_WIDTH },
   },
 ];
 

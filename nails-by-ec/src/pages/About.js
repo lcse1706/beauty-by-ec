@@ -3,28 +3,22 @@ import MyGallery from '../components/gallery/MyGallery';
 
 import classes from './About.module.css';
 
-const PICTURE_WIDTH = '500px';
-
 const imgs = [
   {
     src: require('../components/layout/img/nailsCertificate.jpg'),
     alt: 'Naglar Certifikat',
-    style: { width: PICTURE_WIDTH },
   },
   {
     src: require('../components/layout/img/lashesCertificate.jpg'),
     alt: 'Fransar Certifikat',
-    style: { width: PICTURE_WIDTH },
   },
   {
     src: require('../components/layout/img/efilCertificate.jpg'),
     alt: 'E-fil Certifikat',
-    style: { width: PICTURE_WIDTH },
   },
   {
     src: require('../components/layout/img/speedCertificate.jpg'),
     alt: 'Speed Managment Certifikat',
-    style: { width: PICTURE_WIDTH },
   },
 ];
 

@@ -12,7 +12,9 @@
   font-weight: bold;
 }
 
-
+.pics img {
+  margin-top: 2rem;
+}
 @media (min-width: 576px) {}
 
 @media (min-width: 768px) {}
@@ -20,7 +22,9 @@
 @media (min-width: 992px) {}
 
 @media (min-width: 1200px) {
-
+  .pics img {
+    width: 400px;
+  }
 }
 
 @media (min-width: 1530px) {}
