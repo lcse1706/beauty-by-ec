@@ -6,5 +6,6 @@ www.beautybyec.se
 
 <h3>Used technologies</h3>
 
-- react with react-router-dom v6
+- react
+- react-router-dom v6
 - css modules
